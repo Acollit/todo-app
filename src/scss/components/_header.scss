@@ -1,0 +1,47 @@
+.header {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 130px;
+  background-image: url(../img/bg-desktop-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__container {
+    position: relative;
+
+    @include small-tablet {
+
+    }
+  }
+
+  &__title {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 15px;
+    color: var(--light-color);
+  }
+
+  &__theme {
+    top: 10px;
+    right: 15px;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-image: url(../img/icon-moon.svg);
+  }
+}
+
+.form {
+  position: relative;
+
+
+
+  &__input {
+    padding: 22px 20px 22px 65px;
+    width: 100%;
+    border-radius: 5px;
+    color: hsl(236, 9%, 61%);
+
+  }
+}
